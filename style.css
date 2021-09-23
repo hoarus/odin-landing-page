@@ -71,12 +71,18 @@ button{
 .content{
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: space-evenly;
     margin: 20px 200px;
+    padding: 0px 250px;
+}
+
+h2{
+    align-self: center;
 }
 
 .centre-images{
     display: flex;
+    justify-content: space-between;
     gap: 80px;
 }
 
@@ -94,4 +100,23 @@ button{
     width: 100px;
     border: solid 2px #3882f6;
     border-radius: 10px;
+}
+
+.quote-box{
+    display: flex;
+    background-color: #e5e7eb;
+    padding: 20px 450px;
+    flex-direction: column;
+    color: #1F2937;
+}
+
+.quote{
+    font-size: 36px;
+    font-style: italic;
+    color: 
+}
+
+.quoted-by{
+    align-self: flex-end;
+    font-weight: 700;
 }
