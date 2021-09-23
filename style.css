@@ -56,16 +56,19 @@ ul{
     background-color: darkgray;
 }
 
-button{
+.sign-up, .sign-up-2{
     flex-grow: 0;
     width: 100px;
     margin: 20px 0px;
-    background-color: #3882F6;
     border: 0px;
-    color: #F9FAF8;
     font-weight: bold;
     padding: 5px;
     border-radius:10px;
+}
+
+.sign-up{
+    background-color: #3882F6;
+    color: #F9FAF8;
 }
 
 .content{
@@ -74,10 +77,12 @@ button{
     align-items: space-evenly;
     margin: 20px 200px;
     padding: 0px 250px;
+    padding-bottom: 50px;
 }
 
 h2{
     align-self: center;
+    font-size: 36px;
 }
 
 .centre-images{
@@ -105,7 +110,7 @@ h2{
 .quote-box{
     display: flex;
     background-color: #e5e7eb;
-    padding: 20px 450px;
+    padding: 50px 450px;
     flex-direction: column;
     color: #1F2937;
 }
@@ -119,4 +124,16 @@ h2{
 .quoted-by{
     align-self: flex-end;
     font-weight: 700;
+}
+
+.banner{
+    background-color: #3882F6;
+    margin:50px 200px;
+    padding: 30px 250px;
+    display: flex;
+    color: #F9FAF8;
+}
+
+.sign-up-2{
+    border: solid 1px #F9FAF8;
 }
